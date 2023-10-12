@@ -1,0 +1,71 @@
+.home {
+    width: 60%;
+    margin: auto;
+    height: 90vh;
+}
+
+.home .home-title {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.language {
+    margin-bottom: 18px;
+}
+
+.language a {
+    text-decoration: none;
+    color: #c37;
+    font-weight: 500;
+    box-shadow: none;
+    font-size: 20px;
+}
+.language a:first-child {
+    margin-right: 10px;
+}
+
+.mission h1 {
+    font-size: 60px;
+    font-family: "Goldman", Sans-serif;
+    color: #6EC1E4;
+    line-height: 94px;
+    letter-spacing: 3px;
+    font-weight: 600;
+    margin-bottom: 5px !important;
+}
+
+.home .home-mission {
+    display: flex;
+    justify-content: space-between;
+    gap: 5px;
+}
+
+.home .home-mission .paragraph {
+    margin-right: 10px;
+}
+
+.home .home-mission div p {
+    font-size: 1rem;
+    color: #7A7A7A;
+    line-height: 1.5;
+    font-weight: 400;
+    font-family: "Roboto";
+}
+
+.home .home-mission div p:first-child {
+    margin-top: 0;
+}
+
+
+.goal p:first-child {
+    font-weight: 600;
+}
+
+.goal p {
+    font-size: 1rem;
+    color: #7A7A7A;
+    line-height: 1.5;
+    font-weight: 400;
+    font-family: "Roboto";
+}
