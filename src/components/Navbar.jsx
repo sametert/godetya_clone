@@ -8,7 +8,9 @@ function Navbar() {
     <div className='navbar'>
         <div className='navbar-content'>
             <div>
-                <img src={Logo} alt="logo"  width={342} height={107}/>
+                <Link to="/">
+                  <img src={Logo} alt="logo"  width={342} height={107}/>
+                </Link>
             </div>
             <div className='navbar-links'>
                 <Link to="/">Home</Link>
